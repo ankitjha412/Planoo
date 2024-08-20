@@ -553,7 +553,9 @@ nav {
 .ans5 {
   display: none;
 }
-
+.new {
+  height: max-content;
+}
 .qusetionright {
   position: relative;
   top: 130px;
@@ -610,4 +612,19 @@ footer {
 }
 .rights-right {
   color: #bcbcbc;
+}
+
+/* footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
 }
